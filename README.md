@@ -1,4 +1,4 @@
-# 🔐 CryptoMask — Cryptographic Access-Control Framework
+# 🔐 CryptoMask : Cryptographic Access-Control Framework
 
 > **A research-grade cybersecurity simulator** that demonstrates how cryptographic authentication can detect and block ransomware attacks at the file-system level in real time.
 
