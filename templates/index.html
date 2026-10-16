@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRYPTOMASK — HMAC-SHA256 Ransomware Interceptor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- ── Scrolling Ticker (DarkStar signature) ──────────────── -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <!-- Duplicated for seamless loop -->
+    <span class="ticker-item">CRYPTOMASK ACTIVE <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">HMAC-SHA256 VERIFICATION <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">AES-256 ENCRYPTION ENGINE <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">KMS INTERCEPTOR ONLINE <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">ZERO RANSOMWARE PASS-THROUGH <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">KERNEL-LEVEL PROTECTION <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">CRYPTOMASK ACTIVE <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">HMAC-SHA256 VERIFICATION <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">AES-256 ENCRYPTION ENGINE <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">KMS INTERCEPTOR ONLINE <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">ZERO RANSOMWARE PASS-THROUGH <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">KERNEL-LEVEL PROTECTION <span class="ticker-sep">◆</span></span>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- ── NAV ────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-logo">CRYPTO<span>MASK</span></div>
+    <div class="nav-tag">[ KMS INTERCEPTOR v1.0 ]</div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────── -->
+  <header class="hero">
+    <div class="crosshair ch-tl"></div>
+    <div class="crosshair ch-tr"></div>
+    <div class="crosshair ch-bl"></div>
+    <div class="crosshair ch-br"></div>
+
+    <div class="hero-eyebrow">Cryptographic Access-Control Framework</div>
+    <h1 class="headline">
+      Ransomware<br>
+      <span class="hl">Stopped.</span><br>
+      Cryptographically.
+    </h1>
+    <p class="subline">
+      A kernel-level interceptor that demands a valid HMAC-SHA256 signature
+      from the Key Management Service before any file encryption is allowed.
+      No signature — no write. No exceptions.
+    </p>
+
+    <div class="hero-cta">
+      <button class="hud-btn primary" onclick="runDemo('legitimate')">Run Legit Demo</button>
+      <button class="hud-btn secondary" onclick="runDemo('ransomware')">Simulate Attack</button>
+    </div>
+  </header>
+
+  <!-- ── STATS BAR ──────────────────────────────────────────── -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-value">AES<span class="accent">-256</span></div>
+      <div class="stat-label">Symmetric Encryption Standard</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">HMAC<span class="accent">-SHA256</span></div>
+      <div class="stat-label">Authentication Protocol</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value"><span class="accent">100%</span></div>
+      <div class="stat-label">Rogue Requests Blocked</div>
+    </div>
+  </div>
+
+  <!-- ── HOW IT WORKS ───────────────────────────────────────── -->
+  <section class="how-section">
+    <div class="section-eye">System Architecture</div>
+    <div class="steps">
+
+      <div class="step-card">
+        <span class="step-bg-num">01</span>
+        <div class="step-eyebrow">Step 01</div>
+        <div class="step-raw-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+          </svg>
+        </div>
+        <div class="step-title">Process<br>Requests Write</div>
+        <div class="step-desc">
+          Any process attempting to encrypt and write a file triggers a kernel-level intercept before the disk operation can begin.
+        </div>
+      </div>
+
+      <div class="step-card">
+        <span class="step-bg-num">02</span>
+        <div class="step-eyebrow">Step 02</div>
+        <div class="step-raw-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <div class="step-title">KMS Verifies<br>the MAC</div>
+        <div class="step-desc">
+          The interceptor recomputes <strong>HMAC-SHA256(Key ‖ File_ID ‖ Op ‖ Ts)</strong> and checks it against the token provided by the requesting process.
+        </div>
+      </div>
+
+      <div class="step-card">
+        <span class="step-bg-num">03</span>
+        <div class="step-eyebrow">Step 03</div>
+        <div class="step-raw-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M9 12l2 2 4-4"/>
+          </svg>
+        </div>
+        <div class="step-title">Allow or<br>Block</div>
+        <div class="step-desc">
+          Hash match → write forwarded to secure storage. Hash mismatch → payload destroyed immediately. Ransomware always mismatches.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FLOW DIAGRAM ───────────────────────────────────────── -->
+  <section class="flow-section">
+    <div class="flow">
+
+      <div class="flow-node" id="node-proc">
+        <div class="node-box" id="proc-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+          </svg>
+        </div>
+        <span>Process</span>
+      </div>
+
+      <div class="flow-connector">
+        <div class="connector-label">write_encrypted</div>
+        <div class="arrow-track" id="track-1">
+          <div class="packet" id="pkt1"></div>
+        </div>
+      </div>
+
+      <div class="flow-node">
+        <div class="kms-node-wrap" id="kms-node-wrap">
+          <div class="verdict-icon" id="verdict-icon"></div>
+          <div class="node-box" id="kms-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+        </div>
+        <span>KMS Engine</span>
+      </div>
+
+      <div class="flow-connector">
+        <div class="connector-label">verified payload</div>
+        <div class="arrow-track" id="track-2">
+          <div class="packet" id="pkt2"></div>
+        </div>
+      </div>
+
+      <div class="flow-node" id="node-store">
+        <div class="node-box" id="store-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+            <path d="M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+            <path d="M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6"/>
+          </svg>
+        </div>
+        <span>Secure Storage</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── INTERFACE GRID ─────────────────────────────────────── -->
+  <section class="interface-grid">
+
+    <div class="controls-card">
+      <div class="card-eye">Inject Payload</div>
+
+      <button class="action-btn safe" onclick="runDemo('legitimate')">
+        <svg viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/>
+        </svg>
+        Legitimate Backup
+      </button>
+
+      <button class="action-btn danger" onclick="runDemo('ransomware')">
+        <svg viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+        </svg>
+        Ransomware Attack
+      </button>
+
+      <div class="divider-line"><span>or drop file</span></div>
+
+      <div class="dropzone" id="dropzone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+        </svg>
+        <p>Drag &amp; drop payload</p>
+        <select id="ctx-select">
+          <option value="legitimate">Legitimate Context</option>
+          <option value="ransomware">Ransomware Context</option>
+        </select>
+        <input type="file" id="file-input" style="display:none">
+      </div>
+    </div>
+
+    <div class="trace-card">
+      <div class="terminal-bar">
+        <span class="tb-dot r"></span>
+        <span class="tb-dot y"></span>
+        <span class="tb-dot g"></span>
+        <span class="tb-title">kernel interceptor // cryptographic trace</span>
+      </div>
+      <div class="terminal-body" id="trace">
+        <span class="log c-m">// System initialized. Awaiting payload...</span>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Sensitive keys - DO NOT COMMIT
+master.key
+benchmark.key
+temp_benchmark.key
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp benchmark artifacts
+dummy_1GB.bin
+dummy_text.txt
+dummy_zipped.zip
+dummy_encrypted.enc
+
+# Dummy files generated at runtime
+Dummy_Files/
